@@ -5,6 +5,10 @@ body {
     margin: 0;
   }
 
+  p {
+    margin: 1rem;
+  }
+
   a {
     text-decoration: none;
     color: black;
@@ -18,23 +22,24 @@ body {
   h1 {
     font-size: 2.4rem;
     font-weight: 800;
+    margin: 1rem;
   }
   
   h2 {
     font-size: 1.4rem;
     font-weight: 600;
+    margin: 1rem;
   }
   
   .container {
     margin: 0 auto;
-    padding-left: .5rem;
-    padding-right: .5rem;
   }
   
   .nav {
     list-style: none;
     padding: 0;
     display: flex;
+    margin-left: 1rem;
   }
   
   .nav-link {
@@ -55,12 +60,32 @@ body {
     margin: 0;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 576px) {
     main {
-      width: 80%;
+      width: 90%;
     }
     body {
       font-size: 1.2rem;
+    }
+    img {
+      display: block;
+      width: 80%;
+      margin: auto;
+    }
+    
+}
+
+  @media screen and (min-width: 768px) {
+    main {
+      width: 70%;
+    }
+    body {
+      font-size: 1.2rem;
+    }
+    img {
+      display: block;
+      width: 70%;
+      margin: auto;
     }
     
 }
